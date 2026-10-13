@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: todo-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/tododb
+    username: root
+    password: Manoj@23
+  jpa:
+    hibernate:
+      ddl-auto: update
+  banner:
+    location: banner.txt
